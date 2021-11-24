@@ -63,7 +63,7 @@ while turnos < 9 do
         puts "[" + array[3].to_s + "]" + "[" + array[4].to_s + "]" + "[" + array[5].to_s + "]"
         puts "[" + array[6].to_s + "]" + "[" + array[7].to_s + "]" + "[" + array[8].to_s + "]"
     else posicao.to_s != array[0].to_s || posicao.to_s != array[1].to_s || posicao.to_s != array[2].to_s || posicao.to_s != array[3].to_s || posicao.to_s != array[4].to_s || posicao.to_s != array[5].to_s || posicao.to_s != array[6].to_s || posicao.to_s != array[7].to_s || posicao.to_s != array[8].to_s
-            puts "Jogava inválida, tente novamente"
+            puts "Jogada inválida, tente novamente!"
             if jogada == "X"
                 jogada = "O"
             else
